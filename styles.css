@@ -1,0 +1,103 @@
+:root{
+    --bg: rgb(255, 228, 244);
+    --text: #2a664a;
+    --primary: #82ad86;
+    --borderColor: #ccc;
+}
+
+body{
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+}
+header{
+    background: var(--primary);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+nav{
+    display: block;
+    background: var(--bg);
+    overflow: hidden; 
+}
+nav a{ 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background: var(--primary);
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}  
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+img{
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#profilepic{
+    display: block;
+    margin: auto;
+}
+  
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}   
+
+.flex-container section{
+    background: white;
+    border: 1px solid var(--primary);
+    margin: 10px;
+    padding: 15px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 45%;
+}
+
+footer{
+    background: var(--primary);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+section a:hover, footer a:hover{
+    color: var(--text);
+    text-decoration: underline;
+    font-weight: bolder;
+}  
+
+footer a:hover{
+    background: var(--primary);
+    color:white;
+    text-decoration: underline;
+    font-weight: bolder;
+}  
+
+
